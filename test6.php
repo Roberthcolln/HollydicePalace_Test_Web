@@ -68,7 +68,7 @@
                       // Memanggil fungsi compressString dengan input dari form
                       $output = compressString($_POST["inputString"]);
                       echo "<p>Input: {$_POST["inputString"]}</p>";
-                      echo "<p>Output: $output</p>";
+                      
                     } else {
                       echo "<p>Please enter a string.</p>";
                     }
